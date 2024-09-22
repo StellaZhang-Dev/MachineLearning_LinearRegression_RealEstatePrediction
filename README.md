@@ -2,6 +2,9 @@
 
 This repository presents a comprehensive set of exercises on using linear regression to predict real estate prices. Each exercise builds on the previous one, introducing new datasets, concepts, and methods to deepen the understanding of regression analysis.
 
+---
+
+
 ## 1. Real Estate Price Prediction
 
 In this exercise, we implement a basic linear regression model to predict real estate prices using a set of property features. The features include:
@@ -55,6 +58,9 @@ print(predictions)
 
 - **Prediction**: Once the coefficients are computed, the property prices are predicted by multiplying the feature matrix by the coefficient vector.
 
+---
+
+
 ## 2. Least Squares Regression
 
 This exercise explores the mathematical basis of linear regression by focusing on the least squares method. It introduces a more detailed cabin dataset for regression analysis, and walks through the calculation of regression coefficients.
@@ -103,6 +109,8 @@ print(predicted_prices)
 - **Least Squares Solution**: The least squares method finds the coefficients that minimize the squared error between the predicted prices and the actual prices in the dataset.
 
 - **Interpretation**: The coefficients can be interpreted as the price impact per unit change in each feature (e.g., cabin size, distance to water, etc.).
+
+---
 
 
 ## 3. Predictions with Additional Data
@@ -158,6 +166,8 @@ print(predictions)
 - **Dataset Expansion**: We introduced one additional cabin to increase the dataset size and observe how it affects the regression results.
 
 - **Prediction Accuracy**: With more data, the regression model becomes more robust, and the predictions are more reliable. This highlights the importance of having sufficient data for training regression models.
+
+---
 
 
 ## 4. Training Data vs Test Data
@@ -221,6 +231,9 @@ print(predictions)
 
 - **Model Generalization**: This exercise shows how well the model can generalize to unseen data. The comparison of predicted prices with actual test data provides an estimate of the model’s performance on new data.
 
+---
+
+
 ## Conclusion
 
 This repository demonstrates the step-by-step application of linear regression using the least squares method for real estate price prediction. From understanding basic regression models to scaling them with more data and evaluating them using training and test datasets, these exercises lay the foundation for more advanced machine learning techniques.
@@ -229,7 +242,7 @@ These methods can be applied to various datasets, offering predictive solutions 
 
 ## Acknowledgments
 
-This project was inspired by the "Build AI" course, which provided the initial code framework and theoretical foundations. Building on this, the author independently developed and modified all core code implementations to meet the specific needs of the project.
+This project was inspired by the "Building AI" course, which provided the initial code framework and theoretical foundations. Building on this, the author independently developed and modified all core code implementations to meet the specific needs of the project.
 
 While some algorithms and datasets are consistent with those from the course, the author has completely rewritten the content and explanations based on their own understanding to better align with the project’s objectives, enhancing both clarity and functionality.
 

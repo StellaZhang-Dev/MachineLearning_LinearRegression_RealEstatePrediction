@@ -359,6 +359,7 @@ Overview</h1>
 linear regression to predict real estate prices. Each exercise builds on
 the previous one, introducing new datasets, concepts, and methods to
 deepen the understanding of regression analysis.</p>
+<hr />
 <div id="real-estate-price-prediction" class="section level2">
 <h2>1. Real Estate Price Prediction</h2>
 <p>In this exercise, we implement a basic linear regression model to
@@ -451,13 +452,15 @@ represents a property, and each column corresponds to a specific
 feature.</p></li>
 <li><p><strong>Target Vector (y)</strong>: The dependent variable
 (price) for each property.</p></li>
-<li><p><strong>Coefficient Calculation</strong>: The np.linalg.lstsq
-function computes the coefficients that minimize the sum of the squared
-differences between the predicted and actual prices.</p></li>
+<li><p><strong>Coefficient Calculation</strong>: The
+<code>np.linalg.lstsq</code> function computes the coefficients that
+minimize the sum of the squared differences between the predicted and
+actual prices.</p></li>
 <li><p><strong>Prediction</strong>: Once the coefficients are computed,
 the property prices are predicted by multiplying the feature matrix by
 the coefficient vector.</p></li>
 </ul>
+<hr />
 </div>
 </div>
 <div id="least-squares-regression" class="section level2">
@@ -565,6 +568,7 @@ predicted prices and the actual prices in the dataset.</p></li>
 interpreted as the price impact per unit change in each feature (e.g.,
 cabin size, distance to water, etc.).</p></li>
 </ul>
+<hr />
 </div>
 </div>
 <div id="predictions-with-additional-data" class="section level2">
@@ -651,6 +655,7 @@ regression model becomes more robust, and the predictions are more
 reliable. This highlights the importance of having sufficient data for
 training regression models.</p></li>
 </ul>
+<hr />
 </div>
 </div>
 <div id="training-data-vs-test-data" class="section level2">
@@ -830,6 +835,21 @@ finance, and healthcare. Future extensions could explore non-linear
 models or advanced machine learning algorithms like decision trees,
 random forests, and neural networks for improved accuracy and
 generalization.</p>
+</div>
+<div id="acknowledgments" class="section level2">
+<h2>Acknowledgments</h2>
+<p>This project was inspired by the “Building AI” course, which provided
+the initial code framework and theoretical foundations. Building on
+this, the author independently developed and modified all core code
+implementations to meet the specific needs of the project.</p>
+<p>While some algorithms and datasets are consistent with those from the
+course, the author has completely rewritten the content and explanations
+based on their own understanding to better align with the project’s
+objectives, enhancing both clarity and functionality.</p>
+<p>I am sincerely grateful to the “Build AI” course team for providing
+invaluable resources. All borrowed content respects the rights of the
+original creators, and their contributions are acknowledged with deep
+appreciation.</p>
 </div>
 <div id="license" class="section level2">
 <h2>License</h2>
