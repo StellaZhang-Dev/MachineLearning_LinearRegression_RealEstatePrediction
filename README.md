@@ -4,6 +4,17 @@ This repository presents a comprehensive set of exercises on using linear regres
 
 ---
 
+## Technology Stack
+
+This project utilizes the following technologies and tools:
+
+- **Python**: The core language used for data processing, linear regression modeling, and predictions.
+- **NumPy**: A powerful library for numerical operations and handling matrices, used for implementing the linear regression algorithm.
+- **Jupyter Notebook**: An interactive environment to demonstrate the project and visualize results.
+- **scikit-learn**: (Optional) Used for future extensions if you plan to add more machine learning techniques like decision trees or random forests.
+
+---
+
 
 ## 1. Real Estate Price Prediction
 
